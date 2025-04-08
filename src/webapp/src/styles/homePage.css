@@ -21,6 +21,7 @@ body {
     text-align: center;
     border-radius: 8px;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+
 }
 
 .homepage-text {
@@ -36,6 +37,27 @@ body {
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
 }
 
+.antojitos-header {
+    font-size: 56px;
+    font-weight: bold;
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    justify-content: center;
+    gap: 2px;
+    margin-top: 1rem;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Individual letter colors */
+.antojitos-header .a  { color: #6AB3E5; } /* light blue */
+.antojitos-header .n  { color: #E2542F; } /* red-orange */
+.antojitos-header .t  { color: #8DC63F; } /* green */
+.antojitos-header .o1 { color: #B33AA3; } /* purple */
+.antojitos-header .j  { color: #E2542F; } /* red-orange */
+.antojitos-header .i1 { color: #8DC63F; } /* green */
+.antojitos-header .t2 { color: #EEC144; } /* yellow */
+.antojitos-header .o2 { color: #EEC144; } /* yellow */
+.antojitos-header .s  { color: #6AB3E5; } /* light blue */
 /* Style from Google’s demo — scoped to avoid conflicts */
 .place-picker-container {
     padding: 20px;
