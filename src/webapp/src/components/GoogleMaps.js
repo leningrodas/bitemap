@@ -7,8 +7,8 @@ const GoogleMaps = () => {
         <APIProvider apiKey={process.env.REACT_APP_GOOGLE_MAPS_KEY}>
             <Map
                 style={{ width: '100vw', height: '100vh' }}
-                defaultCenter={{ lat: 40.749933, lng: -73.98633 }}
-                defaultZoom={13}
+                defaultCenter={{ lat: 32.779167, lng: -96.808891 }}
+                defaultZoom={14}
                 gestureHandling="greedy"
                 disableDefaultUI={false}
             />

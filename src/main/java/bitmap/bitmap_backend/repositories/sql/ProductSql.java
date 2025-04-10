@@ -5,10 +5,12 @@ public class ProductSql {
     public static final String INSERT_PRODUCT =
             "insert into product(" +
                     "name, " +
-                    "description" +
+                    "description," +
+                    "price " +
                     ") values(" +
                     ":name," +
-                    " :description" +
+                    ":description," +
+                    ":price" +
                     ")";
 
     public static final String SELECT_PRODUCT =

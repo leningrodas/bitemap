@@ -22,7 +22,8 @@ public class ProductRepository  {
             SqlParameterSource params = new MapSqlParameterSource()
             .addValue("name", dto.getName())
             .addValue("description", dto.getDescription())
-            ;
+            .addValue("price", dto.getPrice());
+
             int updateCnt = jdbcTemplate.update(ProductSql.INSERT_PRODUCT, params);
             return updateCnt;
         }
