@@ -1,0 +1,13 @@
+.button-row {
+  display: flex;
+  justify-content: space-between; /* Left and right alignment */
+  align-items: center;
+  padding: 1rem;
+  width: 100%;
+}
+
+.button-group {
+  display: flex;
+  margin-right: 4em;
+  gap: 0.5rem; /* Keeps buttons close together with small space */
+}
